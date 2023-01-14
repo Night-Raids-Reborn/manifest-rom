@@ -124,7 +124,6 @@
   <remove-project name="platform/external/toybox" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/modules/DnsResolver" />
-  <remove-project name="platform/system/apex" />
 
   <!-- Remove Google device repos -->
   <remove-project name="device/amlogic/yukawa" />
@@ -270,8 +269,7 @@
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
   <project path="system/security" name="platform_system_security" remote="BlissRoms" />
   <project path="system/vold" name="platform_system_vold" remote="BlissRoms" />
-  <project path="system/apex" name="Night-Raids-Reborn/clo_system_apex" remote="github" revision="main" />
-
+  
   <!-- Vendor -->
   <project path="vendor/bliss" name="Night-Raids-Reborn/platform_vendor_bliss" remote="github" revision="r" />
   <project path="vendor/qcom/opensource/power" name="PixelExperience/vendor_qcom_opensource_power" remote="github" revision="eleven" />
