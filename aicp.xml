@@ -105,4 +105,5 @@
 
   <!-- Other additions -->
   <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" clone-depth="1" />
+  <project path="vendor/lawnchair" name="Night-Raids-Reborn/android_vendor_lawnchair" remote="github" revision="twelve" clone-depth="1" />
 </manifest>
