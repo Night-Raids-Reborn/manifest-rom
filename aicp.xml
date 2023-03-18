@@ -35,7 +35,7 @@
   <include name="lineage.xml" />
 
     <!-- AICP additions -->
-  <project path="device/aicp/sepolicy" name="AICP/device_aicp_sepolicy" remote="aicp" clone-depth="1" />
+  <project path="device/aicp/sepolicy" name="Night-Raids-Reborn/device_aicp_sepolicy" remote="github" revision="r11.1" clone-depth="1" />
   <project path="external/pulse" name="AICP/external_pulse" remote="aicp" clone-depth="1" />
   <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" clone-depth="1" />
   <project path="frameworks/opt/jamesdsp" name="AICP/frameworks_opt_jamesdsp" remote="aicp" clone-depth="1" />
