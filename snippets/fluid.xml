@@ -96,7 +96,7 @@
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="fluid" />
 
   <!-- Vendor -->
-  <project path="vendor/fextras" name="vendor_fextras" remote="fluid" />
+  <project path="vendor/fextras" name="Night-Raids-Reborn/vendor_fextras-fluid" remote="github" revision="fluid-11" clone-depth="1" />
   <project path="vendor/fluid" name="Night-Raids-Reborn/vendor_fluid" remote="github" revision="fluid-11" clone-depth="1" />
   <project path="vendor/gapps" name="darknius09/android_vendor_gapps" remote="gitlab" revision="eleven" clone-depth="1" />
   <project path="vendor/lawnchair" name="Night-Raids-Reborn/android_vendor_lawnchair" remote="github" revision="twelve" clone-depth="1" />
