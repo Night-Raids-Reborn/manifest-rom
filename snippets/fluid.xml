@@ -85,6 +85,7 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="fluid" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="fluid" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_faceunlockservice" remote="fluid-gitlab" />
+  <project path="packages/apps/SoftAPManager" name="Night-Raids-Reborn/android_packages_apps_SoftAPManager" remote="github" revision="eleven" clone-depth="1" />
 
 
   <!-- System -->
