@@ -5,6 +5,10 @@
           fetch="https://github.com/TenX-OS"
           revision="eleven" />
 
+  <remote name="dark"
+          fetch="https://github.com/Night-Raids-Reborn"
+          revision="eleven" />
+
   <remote name="tenx-devices"
           fetch="https://github.com/Ten-X-Devices"
           revision="eleven" />
@@ -19,11 +23,11 @@
   <!-- TenX Repos -->
 
   <!-- Framework repos -->
-  <project path="frameworks/base" name="frameworks_base" remote="tenx" />
+  <project path="frameworks/base" name="tenx-frameworks_base" remote="dark" />
   <project path="frameworks/av" name="frameworks_av" remote="tenx" />
 
   <!-- General repos -->
-  <project path="build/make" name="build_make" remote="tenx">
+  <project path="build/make" name="tenx-build_make" remote="dark">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -45,8 +49,8 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="tenx" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tenx" />
-  <project path="packages/apps/TenX" name="packages_apps_TenX" remote="tenx" />
+  <project path="packages/apps/Settings" name="packages_tenx_Settings" remote="dark" />
+  <project path="packages/apps/TenX" name="packages_apps_TenX" remote="dark" />
   <project path="packages/apps/CustomDoze" name="packages_apps_CustomDoze" remote="tenx" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="tenx" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="tenx" />
@@ -55,15 +59,21 @@
 
   <!-- System repos -->
   <project path="system/core" name="system_core" remote="tenx" />
-  <project path="system/netd" name="system_netd" remote="tenx" />
+  <project path="system/netd" name="AICP/system_netd" remote="github" revision="r11.1" />
 
   <!-- Sepolicy repos -->
-  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="tenx" />
+  <project path="device/custom/sepolicy" name="device_tenx_sepolicy" remote="dark" />
   <project path="system/sepolicy" name="system_sepolicy" remote="tenx" />
 
   <!-- Vendor repos -->
-  <project path="vendor/aosp" name="vendor_TenX" remote="tenx" />
+  <project path="vendor/aosp" name="vendor_TenX" remote="dark" />
   <project path="vendor/support" name="vendor_TenX_support" remote="tenx" />
-  <project path="vendor/overlays/Elegance" name="vendor_overlays_Elegance" remote="tenx" />
+  <project path="vendor/overlays/Elegance" name="vendor_overlays_Elegance" remote="dark" />
+  <project path="vendor/gapps" name="darknius09/android_vendor_gapps" remote="gitlab" revision="eleven" clone-depth="1" />
+  <project path="vendor/lawnchair" name="Night-Raids-Reborn/android_vendor_lawnchair" remote="github" revision="twelve" clone-depth="1" />
+
+  <!-- Other additions -->
+  <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
+  <project path="packages/modules/DnsResolver" name="AICP/packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="github" revision="r11.1" />
 
 </manifest>
