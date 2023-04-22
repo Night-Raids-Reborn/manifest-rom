@@ -56,6 +56,7 @@
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="tenx" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="tenx" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="tenx" />
+  <project path="packages/apps/SoftAPManager" name="android_packages_apps_SoftAPManager" remote="dark" clone-depth="1" />
 
   <!-- System repos -->
   <project path="system/core" name="system_core" remote="tenx" />
