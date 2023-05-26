@@ -119,9 +119,10 @@
   <project path="manifest" name="manifest" remote="blaster" />
   <project path="platform_testing" name="platform_testing" remote="pixel" />
   <project path="vendor/aosp" name="darknius09/vendor_pb" remote="github" revision="eleven" clone-depth="1" />
-  <project path="vendor/gapps" name="vendor_gapps" remote="blaster-gitlab" clone-depth="1" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="pixel" />
   <project path="vendor/support" name="darknius09/vendor_support-pb" remote="github" revision="eleven" clone-depth="1" />
+  <project path="vendor/gapps" name="darknius09/android_vendor_gapps" remote="gitlab" revision="havoc" clone-depth="1" />
+  <project path="vendor/lawnchair" name="Night-Raids-Reborn/android_vendor_lawnchair" remote="github" revision="twelve" clone-depth="1" />
 
   <!-- Hardware repos -->
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="pixel" />
