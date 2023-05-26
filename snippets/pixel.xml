@@ -150,7 +150,6 @@
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
   <project path="packages/apps/Explosives" name="darknius09/packages_apps_Explosives" remote="github" revision="eleven" clone-depth="1" />
-  <project path="packages/apps/Lawnchair" name="packages_apps_Lawnchair" remote="blaster" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="blaster" />
   <project path="packages/apps/PermissionController" name="packages_apps_PermissionController" remote="pixel" />
