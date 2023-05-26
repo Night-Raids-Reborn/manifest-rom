@@ -122,7 +122,7 @@
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="pixel" />
   <project path="vendor/support" name="darknius09/vendor_support-pb" remote="github" revision="eleven" clone-depth="1" />
   <project path="vendor/gapps" name="darknius09/android_vendor_gapps" remote="gitlab" revision="havoc" clone-depth="1" />
-  <project path="packages/apps/Lawnchair" name="Night-Raids-Reborn/android_vendor_lawnchair" remote="github" revision="twelve" clone-depth="1" />
+  <project path="vendor/lawnchair" name="Night-Raids-Reborn/android_vendor_lawnchair" remote="github" revision="twelve" clone-depth="1" />
 
   <!-- Hardware repos -->
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="pixel" />
