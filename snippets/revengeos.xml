@@ -64,7 +64,7 @@
   <project path="device/revengeos/sepolicy" name="android_device_revengeos_sepolicy" remote="ros" />
 
   <!-- frameworks -->
-  <project path="frameworks/av" name="PixelBlaster-OS-11/frameworks_av" remote="github" revision="eleven" clone-depth="1" />
+  <project path="frameworks/av" name="ros_frameworks_av" remote="night" clone-depth="1" />
   <project path="frameworks/base" name="ros_frameworks_base" remote="night" />
   <project path="frameworks/native" name="android_frameworks_native" remote="ros" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ros" />
