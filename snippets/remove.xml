@@ -7,7 +7,7 @@
   <remove-project name="device/common" />
   <remove-project name="device/generic/arm64" />
   <remove-project name="device/generic/armv7-a-neon" />
-  <remove-project name="device/generic/art" />>
+  <remove-project name="device/generic/art" />
   <remove-project name="device/generic/car" />
   <remove-project name="device/generic/common" />
   <remove-project name="device/generic/goldfish" />
@@ -174,5 +174,7 @@
   <remove-project name="platform/system/tools/hidl" />
   <remove-project name="platform/system/tools/aidl" />
   <remove-project name="platform/system/iorap" />
+
+  <remove-project name="platform/packages/modules/DnsResolver" />
 
 </manifest>
