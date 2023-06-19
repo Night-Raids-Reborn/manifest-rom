@@ -98,7 +98,7 @@
   <!-- project path="prebuilts/clang/host/linux-x86/clang-xRageTC_lto" name="xRageTC-clang" revision="xRageTC_lto" remote="xyz-prjkt"/ -->
 
   <!-- Sepolicy Repo -->
-  <project path="device/xdroid/sepolicy" name="xd_device_xdroid_sepolicy" remote="xdroid"/>
+  <project path="device/xdroid/sepolicy" name="xdcafex/xd_device_xdroid_sepolicy" remote="github" revision="eleven"/>
 
   <!-- System Repo -->
   <project path="system/core" name="xd_system_core" remote="xdroid"/>
