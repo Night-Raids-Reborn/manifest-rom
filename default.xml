@@ -7,6 +7,9 @@
 
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
+  
+  <remote  name="git"
+           fetch="https://github.com/" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
