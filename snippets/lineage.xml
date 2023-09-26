@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="night"
+    fetch="https://github.com/Night-Raids-Reborn" />
+
   <!-- LineageOS additions -->
   <project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" />
   <!--project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" /-->
@@ -122,7 +125,6 @@
   <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,pdk-qcom" />
   <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="lineage-17.1-caf" />
   <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" />
-  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="LineageOS-Revived/android_vendor_nxp_opensource_external_libnfc-nci" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="LineageOS/android_vendor_nxp_opensource_frameworks" />
@@ -161,6 +163,14 @@
   <project path="hardware/intel/img/hwcomposer" name="LineageOS/android_hardware_intel_img_hwcomposer" groups="intel,pdk" revision="lineage-17.1" />
   <project path="hardware/intel/img/psb_headers" name="LineageOS/android_hardware_intel_img_psb_headers" groups="intel,pdk" revision="lineage-17.1" />
   <project path="hardware/intel/img/psb_video" name="LineageOS/android_hardware_intel_img_psb_video" groups="intel,pdk" revision="lineage-17.1" />
+
+  <!-- Trees -->
+  <project path="device/xiaomi/juice" name="eng_device_xiaomi_juice" remote="night" revision="prebuilt" clone-depth="1" />
+  <project path="vendor/xiaomi/juice" name="eng_vendor_xiaomi_juice" remote="night" revision="main" clone-depth="1" />
+  <project path="kernel/xiaomi/juice" name="DarkLegacy_kernel_citrus" remote="night" revision="proton-master" clone-depth="1" />
+        
+  <!-- Fork -->
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="night" clone-depth="1" revision="lineage-17.1" />
 
   <!-- Tools -->
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
