@@ -60,7 +60,7 @@
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="lineage" />
   <project path="hardware/ril" name="android_hardware_ril" remote="lineage" />
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" />
+  <project path="hardware/xiaomi" name="Night-Raids-Reborn/android_hardware_xiaomi" remote="github" revision="11" />
 
   <!-- Prebuilt Stuff -->
   <project path="prebuilts/tools-dot" name="android_prebuilts_tools-lineage" groups="pdk,tradefed" remote="lineage" />
