@@ -22,8 +22,8 @@
 
   <!-- General -->
   <project path="art" name="android_art" remote="havoc" />
-  <project path="bionic" name="android_bionic" remote="havoc" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="havoc" />
+  <project path="bionic" name="havoc_bionic" remote="night" />
+  <project path="bootable/recovery" name="havoc_bootable_recovery" remote="night" />
   <project path="development" name="android_development" remote="havoc" />
   <project path="libcore" name="android_libcore" remote="havoc" />
   <project path="manifest" name="android_manifest" remote="havoc" />
@@ -74,12 +74,12 @@
   <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" clone-depth="1" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="havoc" />
+  <project path="frameworks/av" name="havoc_frameworks_av" remote="night" />
   <project path="frameworks/base" name="havoc_frameworks_base" remote="night" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="havoc" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="havoc" />
+  <project path="frameworks/native" name="havoc_frameworks_native" remote="night" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="havoc" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="havoc" />
+  <project path="frameworks/opt/net/wifi" name="havoc_frameworks_opt_net_wifi" remote="night" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="havoc" />
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="havoc" />
 
@@ -117,7 +117,7 @@
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="havoc" />
   <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="havoc" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="havoc" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="havoc" />
+  <project path="packages/apps/Nfc" name="havoc_packages_apps_Nfc" remote="night" />
   <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="havoc" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="havoc" />
   <project path="packages/apps/SecureElement" name="android_packages_apps_SecureElement" remote="havoc" />
@@ -135,9 +135,9 @@
   <project path="packages/modules/DnsResolver" name="AICP/packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="github" revision="r11.1" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="havoc" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="havoc" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="havoc" />
-  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="havoc" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="havoc" />
+  <project path="packages/providers/MediaProvider" name="havoc_packages_providers_MediaProvider" remote="night" />
+  <project path="packages/providers/TelephonyProvider" name="havoc_packages_providers_TelephonyProvider" remote="night" />
+  <project path="packages/services/Telecomm" name="havoc_packages_services_Telecomm" remote="night" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="havoc" />
   <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="night" />
 
@@ -154,7 +154,7 @@
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="havoc" />
 
   <!-- System -->
-  <project path="system/bt" name="android_system_bt" remote="havoc" />
+  <project path="system/bt" name="havoc_system_bt" remote="night" />
   <project path="system/core" name="android_system_core" remote="havoc" />
   <project path="system/extras" name="android_system_extras" remote="havoc" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="havoc" />
