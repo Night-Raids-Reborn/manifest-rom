@@ -105,4 +105,9 @@
   <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
   <project path="packages/modules/DnsResolver" name="AICP/packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="github" revision="r11.1" />
   <project path="hardware/xiaomi" name="Night-Raids-Reborn/android_hardware_xiaomi" remote="github" revision="eleven" />
+
+  <!-- Trees -->
+  <project path="device/xiaomi/chime" name="device_xiaomi_chime-r" remote="night" revision="eleven" clone-depth="1" />
+  <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime-r" remote="night" revision="eleven" clone-depth="1" />
+  <project path="kernel/xiaomi/chime" name="darknius20/guuji_kernel_juice" remote="github" revision="main.stbl" clone-depth="1" />
 </manifest>
