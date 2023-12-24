@@ -17,10 +17,6 @@
            fetch="https://github.com/Project-Fluid-Devices/"
            revision="fluid-11" />
 
-  <remote  name="night"
-           fetch="https://github.com/Night-Raids-Reborn"
-           revision="eleven" />
-
   <!-- Rootdir -->
   <project path="bionic" name="bionic" groups="pdk" remote="fluid" />
   <project path="manifest" name="manifest" remote="fluid" />
@@ -108,5 +104,5 @@
   <!-- Other additions -->
   <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
   <project path="packages/modules/DnsResolver" name="AICP/packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="github" revision="r11.1" />
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="night" />
+  <project path="hardware/xiaomi" name="Night-Raids-Reborn/android_hardware_xiaomi" remote="github" revision="eleven" />
 </manifest>
