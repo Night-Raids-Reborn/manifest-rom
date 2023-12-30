@@ -166,7 +166,7 @@
 
   <!-- Trees -->
   <project path="device/xiaomi/juice" name="eng_device_xiaomi_juice" remote="night" revision="prebuilt" clone-depth="1" />
-  <project path="vendor/xiaomi/juice" name="eng_vendor_xiaomi_juice" remote="night" revision="main" clone-depth="1" />
+  <project path="vendor/xiaomi/juice" name="eng_vendor_xiaomi_juice" remote="night" revision="maaster" clone-depth="1" />
   <project path="kernel/xiaomi/juice" name="DarkLegacy_kernel_citrus" remote="night" revision="proton-master" clone-depth="1" />
         
   <!-- Fork -->
