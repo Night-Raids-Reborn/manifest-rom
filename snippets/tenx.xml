@@ -70,7 +70,8 @@
   <project path="vendor/aosp" name="vendor_TenX" remote="dark" />
   <project path="vendor/support" name="vendor_TenX_support" remote="tenx" />
   <project path="vendor/overlays/Elegance" name="vendor_overlays_Elegance" remote="dark" />
-  <project path="vendor/gapps" name="darknius09/android_vendor_gapps" remote="gitlab" revision="eleven" clone-depth="1" />
+  <!-- General repos -->
+  <project path="vendor/gapps" name="vendor_gapps" remote="tenx-gitlab" clone-depth="1" />
   <project path="vendor/lawnchair" name="Night-Raids-Reborn/android_vendor_lawnchair" remote="github" revision="twelve" clone-depth="1" />
 
   <!-- Other additions -->
