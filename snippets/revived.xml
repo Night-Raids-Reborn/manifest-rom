@@ -57,7 +57,7 @@
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="rr-r" />
 
   <!-- Vendor -->
-  <project path="vendor/rr" name="vendor_resurrection" remote="rr-r"/>
+  <project path="vendor/rr" name="Night-Raids-Reborn/vendor_resurrection" remote="git" revision="Q"/>
 
   <!-- Additions -->
   <!-- MindTheGapps -->
