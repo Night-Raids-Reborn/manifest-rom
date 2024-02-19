@@ -58,6 +58,7 @@
 
   <!-- Vendor -->
   <project path="vendor/rr" name="Night-Raids-Reborn/vendor_resurrection" remote="git" revision="Q"/>
+  <project path="external/hosts" name="StevenBlack/hosts" remote="git" revision="master" />
 
   <!-- Additions -->
   <!-- MindTheGapps -->
