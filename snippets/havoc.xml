@@ -186,6 +186,6 @@
   <!-- Trees -->
   <project path="device/xiaomi/chime" name="device_xiaomi_chime-r" remote="night" clone-depth="1" />
   <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime-r" remote="night" clone-depth="1" />
-  <project path="kernel/xiaomi/chime" name="darknius20/guuji_kernel_juice" remote="github" revision="main.stbl" clone-depth="1" />
+  <project path="kernel/xiaomi/chime" name="kernel_xiaomi_citrus_sm6115" remote="night" revision="snowcone" clone-depth="1" />
 
 </manifest>
