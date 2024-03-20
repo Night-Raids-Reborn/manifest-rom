@@ -191,6 +191,6 @@
   <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime-r" remote="night" clone-depth="1" />
   <project path="kernel/xiaomi/chime" name="kernel_xiaomi_citrus_sm6115" remote="night" revision="snowcone" clone-depth="1" />
   <!-- proton Clang -->
- <project path="prebuilts/clang/host/linux-x86/clang-proton" name="LeCmnGend/proton-clang" remote="lab" revision="clang-17" clone-depth="1" />
+ <project path="prebuilts/clang/host/linux-x86/clang-proton" name="LeCmnGend/proton-clang" remote="lab" revision="clang-15" clone-depth="1" />
 
 </manifest>
